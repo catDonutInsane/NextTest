@@ -81,6 +81,12 @@
      justify-content: flex-start;
      flex-direction: column;
 }
+
+@media  (max-width: 500px) {
+    .searchBar input{
+        width: 210px;
+    }
+}
 .infoWrapper{
     display: flex;
     flex-direction: column;
